@@ -1,11 +1,12 @@
-import Button from "./components/common/Button"
-import Heading from "./components/common/Heading"
+import MobileMenu from "./components/contains/Navbar/MobileMenu"
+import Navbar from "./components/contains/Navbar/Navbar"
 
 function App() {
   return (
-    <>
-    
-    </>
+    <main className="bg-blue-400">
+       <Navbar/>
+       {/* <MobileMenu/> */}
+    </main>
   )
 }
 
