@@ -16,7 +16,7 @@ export default function Navbar() {
     <nav className='py-5'>
         <Container>
              
-            <div className='flex justify-between items-center gap-2.5 px-1 md:px-[25px] sm:px-[15px] lg:px-[30px]lg:py-4 md:py-3.5 sm:py-3 py-2.5 bg-white rounded-full'>
+            <div className='flex justify-between items-center gap-2.5 px-2 md:px-[25px] sm:px-[15px] lg:px-[30px]lg:py-4 md:py-3.5 sm:py-3 py-2.5 bg-white rounded-full'>
 
               {/* logo */}
             <Logo>GoverningDocs</Logo>
