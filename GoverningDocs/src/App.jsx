@@ -1,12 +1,17 @@
-import Hero from "./components/contains/hero/Hero"
+import Hero from "./components/contains/Hero"
 import MobileMenu from "./components/contains/Navbar/MobileMenu"
 import Navbar from "./components/contains/Navbar/Navbar"
+import ProblemSolution from "./components/contains/ProblemSolution/ProblemSolution"
+import ProblemSolutionHeader from "./components/contains/ProblemSolution/ProblemsolutionHeader"
+
+
 
 function App() {
   return (
-    <main className="bg-[url(/Hero-img.png)] bg-no-repeat bg-cover min-h-screen bg-top">
+    <main>
        <Navbar/>
-       <Hero/> 
+       <Hero/>  
+       <ProblemSolution/>
     </main>
   )
 }

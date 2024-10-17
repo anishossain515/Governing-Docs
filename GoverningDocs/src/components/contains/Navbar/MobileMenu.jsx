@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../../common/Logo'
-import navItemsData from '../../../lib/utilitys/Navbar.json'
+import navItemsData from '../../../lib/utilitys/Data.json'
 
 export default function MobileMenu({Toggle}) {
     const navItems = navItemsData.NavItems
