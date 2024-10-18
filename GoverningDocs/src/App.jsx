@@ -3,6 +3,7 @@ import MobileMenu from "./components/contains/Navbar/MobileMenu"
 import Navbar from "./components/contains/Navbar/Navbar"
 import ProblemSolution from "./components/contains/ProblemSolution/ProblemSolution"
 import ProblemSolutionHeader from "./components/contains/ProblemSolution/ProblemsolutionHeader"
+import { Reviews } from "./components/contains/Reviews/Reviews"
 
 
 
@@ -12,6 +13,7 @@ function App() {
        <Navbar/>
        <Hero/>  
        <ProblemSolution/>
+       <Reviews/>
     </main>
   )
 }

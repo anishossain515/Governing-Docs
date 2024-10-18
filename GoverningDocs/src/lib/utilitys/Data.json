@@ -45,5 +45,38 @@
       "title": "Compliance Management",
       "des1": "Ensure all your documents meet the latest regulatory standards."
     }
+  ],
+
+  "Clients" : [
+    {
+      "image" : "/Client1.png",
+      "name" : "David",
+      "type" : "Happy Client",
+      "review" :{
+        "title" :"Highly Recommend!" ,
+        "stars" : 4,
+        "details" : "The AI features saved us countless hours and ensured our compliance was spot on."
+      } 
+    },
+    {
+      "image" : "/Client2.png",
+      "name" : "John Smith",
+      "type" : "Happy Client",
+      "review" :{
+        "title" :"It Was A Amazing Experiance!" ,
+        "stars" : 3,
+        "details" : "The AI features saved us countless hours and ensured our compliance was spot on."
+      } 
+    },
+    {
+      "image" : "/Client3.png",
+      "name" : "Ronald Richards",
+      "type" : "Happy Client",
+      "review" :{
+        "title" :"Outstanding Support!" ,
+        "stars" : 5,
+        "details" : "The AI features saved us countless hours and ensured our compliance was spot on."
+      } 
+    }
   ]
 }

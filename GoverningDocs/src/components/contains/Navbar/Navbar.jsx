@@ -21,10 +21,10 @@ export default function Navbar() {
 
           {/* list */}
           <div className=" hidden lg:flex items-center justify-center gap-4 text-accent">
-            {navItems.map(({ label, link, i }) => (
+            {navItems.map(({ label, link },index) => (
               <a
                 href={link}
-                key={i}
+                key={index}
                 className=" hover:text-primary transition-colors duration-150 hover:underline "
               >
                 {label}
