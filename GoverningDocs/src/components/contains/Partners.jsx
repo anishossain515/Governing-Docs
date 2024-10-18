@@ -5,7 +5,7 @@ import PartnersList from "../../lib/utilitys/Data.json";
 
 export const Partners = () => {
   return (
-    <section className="mt-[150px] bg-[#e6f9fd]">
+    <section className="mt-[70px] md:mt-[100px] lg:mt-[150px] bg-[#e6f9fd] px-2.5">
       <Container className="py-[50px] px-[45px]">
         <Heading gradient="Partners" className="text-center text-4xl">
           Our

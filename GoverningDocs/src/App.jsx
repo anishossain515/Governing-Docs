@@ -1,3 +1,4 @@
+import { DocumentManagement } from "./components/contains/DocumentManagement"
 import Hero from "./components/contains/Hero"
 import MobileMenu from "./components/contains/Navbar/MobileMenu"
 import Navbar from "./components/contains/Navbar/Navbar"
@@ -15,6 +16,7 @@ function App() {
        <ProblemSolution/>
        <Reviews/>
        <Partners/>
+       <DocumentManagement/>
     </main>
   )
 }
