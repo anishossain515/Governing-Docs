@@ -78,5 +78,32 @@
         "details" : "The AI features saved us countless hours and ensured our compliance was spot on."
       } 
     }
+  ],
+
+  "Partners" : [
+    {
+      "image" : "/partner1.png",
+      "name" : "Partners"
+    },
+    {
+      "image" : "/partner6.png",
+      "name" : "Partners"
+    },
+    {
+      "image" : "/partner2.png",
+      "name" : "Partners"
+    },
+    {
+      "image" : "/partner3.png",
+      "name" : "Partners"
+    },
+    {
+      "image" : "/partner4.png",
+      "name" : "Partners"
+    },
+    {
+     "image" : "/partner5.png",
+     "name" : "Partners"
+    }
   ]
 }
