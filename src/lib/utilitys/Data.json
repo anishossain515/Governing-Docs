@@ -107,18 +107,19 @@
     }
   ],
 
-  "FAQ" : [
+  
+  "FAQ": [
     {
-      "Que" : "Is my data secure?",
-      "Ans" : "Yes, Your data is completely secure" 
+      "Que": "Is my data secure?",
+      "Ans": "Yes, Your data is completely secure."
     },
     {
-      "Que" : "What types of documents can Ai GoverningDocs generate?",
-      "Ans" : "We cover a wide range of documents, including contracts, NDAs, compliance reports, and more" 
+      "Que": "What types of documents can Ai GoverningDocs generate?",
+      "Ans": "We cover a wide range of documents, including contracts, NDAs, compliance reports, and more."
     },
     {
-      "Que" : "Can I customize the documents?",
-      "Ans" : "Yes, You customize your documents" 
+      "Que": "Can I customize the documents?",
+      "Ans": "Yes, You can customize your documents."
     }
   ],
 

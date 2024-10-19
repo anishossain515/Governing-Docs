@@ -6,14 +6,14 @@ import { cn } from "../../lib/utilitys/Cn";
 import QA from "../../lib/utilitys/Data.json";
 
 export const FAQ = () => {
-  const [ClickArrow, setClickArrow] = useState(-1);
+  const [ClickArrow, setClickArrow] = useState(1);
 
   const handleChange = (i) => {
     setClickArrow(ClickArrow === i ? -1 : i);
   };
   return (
     <section className="mt-[70px] md:mt-[100px] lg:mt-[150px] relative">
-      <Container className="max-w-[982px] z-10">
+      <Container className="max-w-[982px]">
         <Heading gradient="Asked Questions" className="text-center">
           Frequently
         </Heading>
@@ -51,7 +51,7 @@ export const FAQ = () => {
       <img
         src="/faq.png"
         alt="FAQ"
-        className="absolute max-w-full w-auto h-auto left-0 md:left-[7%] top-[-50px] md:top-[-80px] md:max-w-[80%] lg:max-w-[60%] object-contain "
+        className="absolute max-w-full w-auto -z-10 h-auto left-0 md:left-[7%] top-[-50px] md:top-[-80px] md:max-w-[80%] lg:max-w-[60%] object-contain "
       />
     </section>
   );
