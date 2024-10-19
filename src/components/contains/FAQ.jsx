@@ -6,7 +6,7 @@ import { cn } from "../../lib/utilitys/Cn";
 import QA from "../../lib/utilitys/Data.json";
 
 export const FAQ = () => {
-  const [ClickArrow, setClickArrow] = useState(1);
+  const [ClickArrow, setClickArrow] = useState(-1);
 
   const handleChange = (i) => {
     setClickArrow(ClickArrow === i ? -1 : i);
