@@ -12,8 +12,8 @@ export const Partners = () => {
         </Heading>
 
         <div className="flex flex-wrap items-center justify-center gap-[30px] pt-10">
-          {PartnersList.Partners.map(({ image, name }) => (
-            <div className="bg-white w-[274px] h-[101px] rounded-xl border border-[#d6d6d6] flex items-center justify-center ">
+          {PartnersList.Partners.map(({ image, name },index) => (
+            <div key={index} className="bg-white w-[274px] h-[101px] rounded-xl border border-[#d6d6d6] flex items-center justify-center ">
               <img src={image} alt={name} />
             </div>
           ))}

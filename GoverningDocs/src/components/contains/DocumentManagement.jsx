@@ -4,7 +4,7 @@ import Button from '../common/Button';
 
 export const DocumentManagement = () => {
   return (
-    <section className="mt-[150px] px-2">
+    <section className="mt-[70px] md:mt-[100px] lg:mt-[150px] px-2">
       <Container className="bg-gradient-primary rounded-[20px] ">
 
         <div className='flex sm:space-y-0 space-y-8 flex-col md:flex-row justify-between items-center py-[56px] px-10 '>

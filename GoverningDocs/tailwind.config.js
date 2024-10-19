@@ -21,8 +21,9 @@ export default {
       },
 
       boxShadow : {
-         "Arrow" :  " 0px 4px 15px 0px #0000001A",
-         "Box" : "0px 10px 30px 0px #02B6DC26"
+         "Arrow" : " 0px 4px 15px 0px #0000001A",
+         "Box" :"0px 10px 30px 0px #02B6DC26",
+         "FAQ" :"0px 21.46px 25px 0px #02B6DC1A"
       } 
     },
   },
