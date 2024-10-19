@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Container from "../../common/Container";
 import Logo from "../../common/Logo";
 import navItemsData from "../../../lib/utilitys/Data.json";
@@ -12,6 +12,18 @@ export default function Navbar() {
   const Toggle = () => {
     setIsMenuClick(!isMenuClick);
   };
+
+  useEffect(()=>{
+    const BodyClass = document.body.classList;
+
+    if(isMenuClick){
+      BodyClass.add("no-scroll")
+    }else{
+      BodyClass.remove("no-scroll")
+    }
+ },[isMenuClick])
+   
+
   return (
     <nav className="py-5">
       <Container>

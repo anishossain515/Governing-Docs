@@ -120,5 +120,28 @@
       "Que" : "Can I customize the documents?",
       "Ans" : "Yes, You customize your documents" 
     }
+  ],
+
+  "Icons" : [
+    {
+      "icon" : "/fb.png",
+      "url" : "https://www.facebook.com/",
+      "name" : "Facebook"
+    },
+    {
+      "icon" : "/ins.png",
+      "url" : "https://www.instagram.com/",
+       "name" : "Instagram"
+    },
+    {
+      "icon" : "/in.png",
+      "url" : "https://www.linkedin.com/",
+       "name" : "linkedin"
+    },
+    {
+      "icon" : "/x.png",
+      "url" : "https://x.com/",
+       "name" : "X"
+    }
   ]
 }

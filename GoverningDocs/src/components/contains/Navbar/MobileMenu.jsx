@@ -4,6 +4,7 @@ import navItemsData from '../../../lib/utilitys/Data.json'
 
 export default function MobileMenu({Toggle}) {
     const navItems = navItemsData.NavItems
+
   return (
     <>
       <div className='lg:hidden absolute top-0 left-0 z-50 w-full h-screen p-6 overflow-y-hidden bg-white'> 

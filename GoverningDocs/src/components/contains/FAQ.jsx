@@ -26,14 +26,14 @@ export const FAQ = () => {
             >
               <button
               onClick={()=>handleChange(index)}
-              className="inline-flex w-full justify-between items-center pt-1 pb-[23px] px-[30px]">
-                <h3 className="font-bold cursor-pointer text-xl md:text-[26px] font-Nunito-Sans text-secondary text-start">
+              className="inline-flex w-full justify-between items-center pt-1 pb-[23px] px-[30px] ">
+                <h3 className="font-bold cursor-pointer text-[15px] md:text-[26px] font-Nunito-Sans text-secondary text-start">
                   {Que}
                 </h3>
                
                <Arrow
                   className={cn(
-                    "-rotate-90 text-primary",
+                    "-rotate-90 text-primary w-[43px]",
                     ClickArrow === index && "rotate-90"
                   )}
                 />
@@ -51,7 +51,7 @@ export const FAQ = () => {
       <img
         src="/faq.png"
         alt="FAQ"
-        className="absolute -top-[150px] left-[8%]"
+        className="absolute max-w-full w-auto h-auto left-0 md:left-[7%] top-[-50px] md:top-[-80px] md:max-w-[80%] lg:max-w-[60%] object-contain "
       />
     </section>
   );
