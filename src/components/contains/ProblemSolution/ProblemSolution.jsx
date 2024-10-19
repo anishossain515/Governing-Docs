@@ -2,7 +2,7 @@ import React from 'react'
 import Container from '../../common/Container'
 import ProblemSolutionHeader from './ProblemsolutionHeader'
 import ProblemData from '../../../lib/utilitys/Data.json'
-import { ProblemSolutionCard } from './ProblemSolutionCard.JSX'
+import { ProblemSolutionCard } from './ProblemSolutionCard';
 
 export default function ProblemSolution() {
   return (
@@ -20,7 +20,7 @@ export default function ProblemSolution() {
 
                       {
                         ProblemData.ProblemSolution.map((problem,index)=>(
-                          <ProblemSolutionCard {...problem} key={index} />
+                           <ProblemSolutionCard {...problem} key={index} />
                         ))
                       }
 
